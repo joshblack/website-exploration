@@ -1,0 +1,6 @@
+**/node_modules/**
+**/storybook-static/**
+**/.next/**
+**/lib/**
+**/lib-esm/**
+**/dist/**

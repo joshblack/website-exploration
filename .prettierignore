@@ -1,0 +1,5 @@
+.changeset
+!codemods/lib/**
+storybook-static
+**/.next/**
+out

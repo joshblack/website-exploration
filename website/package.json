@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "clean": "rimraf .next",
+    "build": "next build",
+    "develop": "next",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@primer/doctocat": "0.0.0",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.2",
+    "rimraf": "^5.0.7",
+    "typescript": "^5.4.5",
+    "webpack-bundle-analyzer": "^4.10.2"
+  }
+}
